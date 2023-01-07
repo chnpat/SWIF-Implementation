@@ -1,0 +1,61 @@
+<?xml version="1.0" ?>
+<cdkg>
+	<fact generic="software" relation="correlate_with">identity wallet</fact>
+	<fact generic="system" relation="correlate_with">issuer service endpoint</fact>
+	<fact generic="system" relation="correlate_with">verifier service endpoint</fact>
+	<fact generic="system" relation="correlate_with">service provider</fact>
+	<fact generic="system" relation="correlate_with">ssi management system</fact>
+	<fact generic="system" relation="correlate_with">blockchain</fact>
+	<fact generic="application" relation="correlate_with">identity wallet</fact>
+	<fact generic="service" relation="correlate_with">issuer service endpoint</fact>
+	<fact generic="service" relation="correlate_with">verifier service endpoint</fact>
+	<fact generic="service" relation="correlate_with">key resolution service</fact>
+	<fact generic="user" relation="correlate_with">holder</fact>
+	<fact generic="user" relation="correlate_with">subject</fact>
+	<fact generic="user" relation="correlate_with">issuer</fact>
+	<fact generic="user" relation="correlate_with">verifier</fact>
+	<fact generic="user" relation="correlate_with">administrator</fact>
+	<fact generic="owner" relation="correlate_with">subject</fact>
+	<fact generic="actor" relation="correlate_with">holder</fact>
+	<fact generic="actor" relation="correlate_with">subject</fact>
+	<fact generic="actor" relation="correlate_with">issuer</fact>
+	<fact generic="actor" relation="correlate_with">verifier</fact>
+	<fact generic="actor" relation="correlate_with">administrator</fact>
+	<fact generic="object" relation="correlate_with">ssi</fact>
+	<fact generic="object" relation="correlate_with">claim</fact>
+	<fact generic="object" relation="correlate_with">did</fact>
+	<fact generic="object" relation="correlate_with">did document</fact>
+	<fact generic="information" relation="correlate_with">personal information</fact>
+	<fact generic="information" relation="correlate_with">identity attribute</fact>
+	<fact generic="information" relation="correlate_with">credential</fact>
+	<fact generic="information" relation="correlate_with">claim</fact>
+	<fact generic="data" relation="correlate_with">personal information</fact>
+	<fact generic="data" relation="correlate_with">identity attribute</fact>
+	<fact generic="data" relation="correlate_with">credential</fact>
+	<fact generic="data" relation="correlate_with">claim</fact>
+	<fact generic="resource" relation="correlate_with">identity attribute</fact>
+	<fact generic="resource" relation="correlate_with">claim</fact>
+	<fact generic="resource" relation="correlate_with">did</fact>
+	<fact generic="resource" relation="correlate_with">did document</fact>
+	<fact generic="information" relation="synonym_of">info</fact>
+	<fact generic="information" relation="synonym_of">datum</fact>
+	<fact generic="system" relation="synonym_of">scheme</fact>
+	<fact generic="system" relation="synonym_of">arrangement</fact>
+	<fact generic="system" relation="synonym_of">organization</fact>
+	<fact generic="system" relation="synonym_of">organisation</fact>
+	<fact generic="software" relation="synonym_of">software program</fact>
+	<fact generic="software" relation="synonym_of">computer software</fact>
+	<fact generic="software" relation="synonym_of">software system</fact>
+	<fact generic="software" relation="synonym_of">software package</fact>
+	<fact generic="software" relation="synonym_of">package</fact>
+	<fact generic="application" relation="synonym_of">coat</fact>
+	<fact generic="application" relation="synonym_of">cover</fact>
+	<fact generic="application" relation="synonym_of">application program</fact>
+	<fact generic="application" relation="synonym_of">application programme</fact>
+	<fact generic="data" relation="synonym_of">information</fact>
+	<fact generic="object" relation="synonym_of">physical object</fact>
+	<fact generic="object" relation="synonym_of">aim</fact>
+	<fact generic="object" relation="synonym_of">objective</fact>
+	<fact generic="object" relation="synonym_of">target</fact>
+	<fact generic="owner" relation="synonym_of">possessor</fact>
+</cdkg>

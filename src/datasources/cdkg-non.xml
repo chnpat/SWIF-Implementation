@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<cdkg>
+	<fact generic="information" relation="synonym_of">info</fact>
+	<fact generic="information" relation="synonym_of">datum</fact>
+	<fact generic="system" relation="synonym_of">scheme</fact>
+	<fact generic="system" relation="synonym_of">arrangement</fact>
+	<fact generic="system" relation="synonym_of">organization</fact>
+	<fact generic="system" relation="synonym_of">organisation</fact>
+	<fact generic="software" relation="synonym_of">software program</fact>
+	<fact generic="software" relation="synonym_of">computer software</fact>
+	<fact generic="software" relation="synonym_of">software system</fact>
+	<fact generic="software" relation="synonym_of">software package</fact>
+	<fact generic="software" relation="synonym_of">package</fact>
+	<fact generic="application" relation="synonym_of">coat</fact>
+	<fact generic="application" relation="synonym_of">cover</fact>
+	<fact generic="application" relation="synonym_of">application program</fact>
+	<fact generic="application" relation="synonym_of">application programme</fact>
+	<fact generic="data" relation="synonym_of">information</fact>
+	<fact generic="object" relation="synonym_of">physical object</fact>
+	<fact generic="object" relation="synonym_of">aim</fact>
+	<fact generic="object" relation="synonym_of">objective</fact>
+	<fact generic="object" relation="synonym_of">target</fact>
+	<fact generic="owner" relation="synonym_of">possessor</fact>
+</cdkg>

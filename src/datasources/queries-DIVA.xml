@@ -1,0 +1,33 @@
+<queries>
+    <function>Users shall be able to download the CSLA wallet application from App Store or Google Play Store.</function>
+    <function>Users shall register their wallet account in the CSLA wallet application using their name, age, home address, and email address.</function>
+    <function>Users shall register their phone number, sex, and profile picture to the CSLA wallet application optionally.</function>
+    <function>CDLA wallet application shall generate a collision-resilient DID wallet address following the DID open standard.</function>
+    <function>CDLA wallet application shall generate a pair of public and private keys for message authentication and encryption.</function>
+    <function>CDLA wallet application shall generate a block of data containing a DID wallet address and a public key string.</function>
+    <function>CSLA wallet application shall submit the block of data to the distributed ledger.</function>
+    <function>There must be a single distributed ledger running on the public internet.</function>
+    <function>The distributed ledger shall perform a consensus mechanism by contacting all peers in the network and wait for their consensus responses.</function>
+    <function>The distributed ledger shall make the data block public to all nodes in the network.</function>
+    <function>Users shall be able to set their password in correspondence with their wallet account.</function>
+    <function>Password must have at least eight characters, have at least one special character, and have at least one number.</function>
+    <function>CDLA wallet application shall display a dashboard as a landing page after signing-in, providing the user's profile picture, name, email address, the number of identity attributes, the number of identity claims, and the number of verifiable claims.</function>
+    <function>Users shall be able to create, update, and delete identity attributes in the form of a key-value pair.</function>
+    <function>Users shall be able to select an identity attribute and create an identity claim regarding the attribute.</function>
+    <function>The Office of Mass Communication and Office of Citizen Registration service systems will be act as issuers.</function>
+    <function>Users shall be able to instruct the CDLA wallet application to validate the claim by sending the claim to an issuer.</function>
+    <function>Users shall be able to send the name claim, age claim, and address claim to the Office of Citizen Registration service system.</function>
+    <function>The Office of Citizen Registration service system shall validate identity claims and convert them to verifiable claims.</function>
+    <function>The Office of Citizen Registration service system shall generate a data block, containing proof schemas for name, age, and address.</function>
+    <function>The Office of Citizen Registration service system shall submit the data block to the distributed ledger.</function>
+    <function>The Office of Citizen Registration service system shall return the verifiable claims to the CDLA wallet application.</function>
+    <function>Users shall be able to submit the name, age, and address verifiable claims to the Office of Mass Communication service system.</function>
+    <function>The Office of Mass Communication service system shall verify the received verifiable claims by retrieving corresponding citizen schemas.</function>
+    <function>The Office of Mass Communication service system shall validate the authority of the user in the driving test database if the verifiable claims are valid.</function>
+    <function>The Office of Mass Communication service system shall generate a driving license verifiable claim based on the published license schema.</function>
+    <function>The Office of Mass Communication service system shall return the driving license verifiable claim to the users.</function>
+    <function>SDLA wallet application shall store the driving license verifiable claim.</function>
+    <function>Traffic police and car company will be act as verifiers.</function>
+    <function>Users can instruct the SDLA wallet application to submit the driving license verifiable claim to a verifier.</function>
+    <function>The verifier shall be able to verify the driving license verifiable claim by retrieving the corresponding license schema from the distributed ledger.</function>
+</queries>

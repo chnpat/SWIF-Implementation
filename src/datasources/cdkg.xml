@@ -1,0 +1,213 @@
+<?xml version="1.0" ?>
+<cdkg>
+	<fact generic="cryptographic key" relation="correlate_with">key</fact>
+	<fact generic="cryptographic key" relation="correlate_with">signing key</fact>
+	<fact generic="cryptographic key" relation="correlate_with">encryption key</fact>
+	<fact generic="cryptographic key" relation="correlate_with">verification key</fact>
+	<fact generic="cryptographic key" relation="correlate_with">symmetric key</fact>
+	<fact generic="cryptographic key" relation="correlate_with">asymmetric key</fact>
+	<fact generic="cryptographic key" relation="correlate_with">public key cryptography</fact>
+	<fact generic="cryptographic key" relation="correlate_with">public key</fact>
+	<fact generic="cryptographic key" relation="correlate_with">private key</fact>
+	<fact generic="cryptographic key" relation="correlate_with">license key</fact>
+	<fact generic="cryptographic key" relation="correlate_with">agent key</fact>
+	<fact generic="cryptographic key" relation="correlate_with">revocation key</fact>
+	<fact generic="blockchain" relation="correlate_with">blockchain technology</fact>
+	<fact generic="blockchain" relation="correlate_with">hyperledger indy</fact>
+	<fact generic="blockchain" relation="correlate_with">distributed ledger technology</fact>
+	<fact generic="blockchain" relation="correlate_with">distributed ledger</fact>
+	<fact generic="blockchain" relation="correlate_with">ledger</fact>
+	<fact generic="blockchain" relation="correlate_with">data registry</fact>
+	<fact generic="blockchain" relation="correlate_with">transaction storage</fact>
+	<fact generic="blockchain" relation="correlate_with">smart contract</fact>
+	<fact generic="blockchain" relation="correlate_with">contract</fact>
+	<fact generic="blockchain" relation="correlate_with">identity blockchain</fact>
+	<fact generic="blockchain" relation="correlate_with">independent observer node</fact>
+	<fact generic="blockchain" relation="correlate_with">observer</fact>
+	<fact generic="blockchain" relation="correlate_with">peer connection</fact>
+	<fact generic="blockchain" relation="correlate_with">authority network</fact>
+	<fact generic="exchange" relation="correlate_with">share</fact>
+	<fact generic="exchange" relation="correlate_with">transmit</fact>
+	<fact generic="exchange" relation="correlate_with">sharing</fact>
+	<fact generic="exchange" relation="correlate_with">identity information sharing</fact>
+	<fact generic="exchange" relation="correlate_with">identity interaction</fact>
+	<fact generic="exchange" relation="correlate_with">credential interaction</fact>
+	<fact generic="issuer" relation="correlate_with">issuer endpoint</fact>
+	<fact generic="issuer" relation="correlate_with">validator</fact>
+	<fact generic="issuer" relation="correlate_with">controller</fact>
+	<fact generic="issuer" relation="synonym_of">governor</fact>
+	<fact generic="issuer" relation="synonym_of">checker</fact>
+	<fact generic="issuer" relation="correlate_with">third party</fact>
+	<fact generic="issuer" relation="correlate_with">agent terminal</fact>
+	<fact generic="verifier" relation="correlate_with">verifier endpoint</fact>
+	<fact generic="verifier" relation="correlate_with">service provider</fact>
+	<fact generic="verifier" relation="correlate_with">service</fact>
+	<fact generic="verifier" relation="correlate_with">authenticator</fact>
+	<fact generic="verifier" relation="correlate_with">data user</fact>
+	<fact generic="verifier" relation="correlate_with">agent terminal</fact>
+	<fact generic="identity recovery" relation="correlate_with">data recovery</fact>
+	<fact generic="identity recovery" relation="correlate_with">data recall</fact>
+	<fact generic="identity recovery" relation="correlate_with">restore</fact>
+	<fact generic="enrol" relation="correlate_with">register</fact>
+	<fact generic="enrol" relation="synonym_of">store</fact>
+	<fact generic="enrol" relation="synonym_of">sign up</fact>
+	<fact generic="enrol" relation="synonym_of">initiate</fact>
+	<fact generic="enrol" relation="correlate_with">critical function</fact>
+	<fact generic="enrol" relation="correlate_with">privileged function</fact>
+	<fact generic="unauthorized user" relation="correlate_with">attacker</fact>
+	<fact generic="unauthorized user" relation="correlate_with">adversary</fact>
+	<fact generic="unauthorized user" relation="correlate_with">malicious user</fact>
+	<fact generic="unauthorized user" relation="correlate_with">dishonest user</fact>
+	<fact generic="attestation" relation="correlate_with">claim</fact>
+	<fact generic="attestation" relation="correlate_with">identity claim</fact>
+	<fact generic="attestation" relation="synonym_of">confirmation</fact>
+	<fact generic="attestation" relation="synonym_of">evidence</fact>
+	<fact generic="attestation" relation="correlate_with">proof</fact>
+	<fact generic="attestation" relation="synonym_of">declaration</fact>
+	<fact generic="attestation" relation="correlate_with">verifiable credential</fact>
+	<fact generic="attestation" relation="correlate_with">verifiable claim</fact>
+	<fact generic="attestation" relation="correlate_with">proof of identity</fact>
+	<fact generic="attestation" relation="correlate_with">party attestation</fact>
+	<fact generic="attestation" relation="correlate_with">private information</fact>
+	<fact generic="attestation" relation="correlate_with">sensitive information</fact>
+	<fact generic="identifier" relation="correlate_with">DID</fact>
+	<fact generic="identifier" relation="correlate_with">decentralized identifier</fact>
+	<fact generic="identifier" relation="correlate_with">ID</fact>
+	<fact generic="identifier" relation="correlate_with">unique key</fact>
+	<fact generic="identifier" relation="correlate_with">identification</fact>
+	<fact generic="identifier" relation="correlate_with">signature</fact>
+	<fact generic="identifier" relation="correlate_with">public DID</fact>
+	<fact generic="identifier" relation="correlate_with">DID document</fact>
+	<fact generic="entry" relation="correlate_with">identity attribute</fact>
+	<fact generic="entry" relation="correlate_with">data entry</fact>
+	<fact generic="entry" relation="correlate_with">data record</fact>
+	<fact generic="entry" relation="correlate_with">data registry</fact>
+	<fact generic="entry" relation="correlate_with">registry</fact>
+	<fact generic="revoke" relation="synonym_of">invalidate</fact>
+	<fact generic="revoke" relation="synonym_of">deny</fact>
+	<fact generic="revoke" relation="synonym_of">dismiss</fact>
+	<fact generic="revoke" relation="synonym_of">withdraw</fact>
+	<fact generic="revoke" relation="synonym_of">remove</fact>
+	<fact generic="revoke" relation="correlate_with">critical function</fact>
+	<fact generic="revoke" relation="correlate_with">privileged function</fact>
+	<fact generic="revoke" relation="correlate_with">erasure</fact>
+	<fact generic="private instance" relation="correlate_with">wallet</fact>
+	<fact generic="private instance" relation="correlate_with">identity wallet</fact>
+	<fact generic="private instance" relation="correlate_with">identity storage</fact>
+	<fact generic="private instance" relation="correlate_with">data storage</fact>
+	<fact generic="private instance" relation="correlate_with">datum storage</fact>
+	<fact generic="private instance" relation="correlate_with">storage</fact>
+	<fact generic="private instance" relation="correlate_with">database</fact>
+	<fact generic="private instance" relation="correlate_with">edge agent</fact>
+	<fact generic="private instance" relation="correlate_with">decentralized application</fact>
+	<fact generic="private instance" relation="correlate_with">agent terminal</fact>
+	<fact generic="private instance" relation="correlate_with">vault</fact>
+	<fact generic="private instance" relation="correlate_with">local storage</fact>
+	<fact generic="private instance" relation="correlate_with">agent</fact>
+	<fact generic="private instance" relation="correlate_with">agency</fact>
+	<fact generic="private instance" relation="correlate_with">distributed private agent</fact>
+	<fact generic="write" relation="correlate_with">create</fact>
+	<fact generic="write" relation="correlate_with">compose</fact>
+	<fact generic="write" relation="correlate_with">commit</fact>
+	<fact generic="write" relation="correlate_with">generate</fact>
+	<fact generic="write" relation="correlate_with">transaction request</fact>
+	<fact generic="biometry" relation="correlate_with">biometric</fact>
+	<fact generic="biometry" relation="correlate_with">fingerprint</fact>
+	<fact generic="biometry" relation="correlate_with">facial</fact>
+	<fact generic="biometry" relation="correlate_with">biometric characteristic</fact>
+	<fact generic="biometry" relation="correlate_with">biometric information</fact>
+	<fact generic="encrypt" relation="correlate_with">sign</fact>
+	<fact generic="encrypt" relation="correlate_with">encryption</fact>
+	<fact generic="encrypt" relation="synonym_of">encode</fact>
+	<fact generic="encrypt" relation="synonym_of">encipher</fact>
+	<fact generic="validation" relation="correlate_with">validation request</fact>
+	<fact generic="validation" relation="synonym_of">checking</fact>
+	<fact generic="validation" relation="synonym_of">affirmation</fact>
+	<fact generic="validation" relation="correlate_with">claim validation</fact>
+	<fact generic="validation" relation="correlate_with">validate</fact>
+	<fact generic="login" relation="correlate_with">authentication</fact>
+	<fact generic="login" relation="correlate_with">sign in</fact>
+	<fact generic="login" relation="correlate_with">log on</fact>
+	<fact generic="login" relation="correlate_with">authenticate</fact>
+	<fact generic="present" relation="synonym_of">show</fact>
+	<fact generic="present" relation="synonym_of">give</fact>
+	<fact generic="present" relation="synonym_of">hand over</fact>
+	<fact generic="present" relation="synonym_of">offer</fact>
+	<fact generic="present" relation="synonym_of">submit</fact>
+	<fact generic="present" relation="synonym_of">display</fact>
+	<fact generic="present" relation="correlate_with">privileged function</fact>
+	<fact generic="subject" relation="correlate_with">user</fact>
+	<fact generic="subject" relation="correlate_with">data owner</fact>
+	<fact generic="subject" relation="correlate_with">identity owner</fact>
+	<fact generic="subject" relation="correlate_with">holder</fact>
+	<fact generic="subject" relation="synonym_of">dependent</fact>
+	<fact generic="subject" relation="correlate_with">holder owner</fact>
+	<fact generic="subject" relation="correlate_with">specific individual</fact>
+	<fact generic="subject" relation="correlate_with">individual</fact>
+	<fact generic="subject" relation="correlate_with">entity</fact>
+	<fact generic="disclosure" relation="correlate_with">information disclosure</fact>
+	<fact generic="disclosure" relation="synonym_of">revelation</fact>
+	<fact generic="disclosure" relation="synonym_of">exposure</fact>
+	<fact generic="disclosure" relation="synonym_of">reveal</fact>
+	<fact generic="disclosure" relation="correlate_with">selective disclosure</fact>
+	<fact generic="disclosure" relation="correlate_with">disclose</fact>
+	<fact generic="disclosure" relation="correlate_with">user consent</fact>
+	<fact generic="save" relation="correlate_with">store</fact>
+	<fact generic="save" relation="correlate_with">record</fact>
+	<fact generic="save" relation="synonym_of">handle</fact>
+	<fact generic="save" relation="synonym_of">maintain</fact>
+	<fact generic="save" relation="synonym_of">preserve</fact>
+	<fact generic="save" relation="synonym_of">collect</fact>
+	<fact generic="save" relation="synonym_of">keep</fact>
+	<fact generic="identity" relation="correlate_with">self sovereign identity</fact>
+	<fact generic="identity" relation="correlate_with">digital identity</fact>
+	<fact generic="identity" relation="correlate_with">physical identity</fact>
+	<fact generic="identity" relation="correlate_with">SSI</fact>
+	<fact generic="identity" relation="correlate_with">profile attribute</fact>
+	<fact generic="identity" relation="correlate_with">identity attribute</fact>
+	<fact generic="identity" relation="correlate_with">attribute</fact>
+	<fact generic="identity" relation="correlate_with">characteristic</fact>
+	<fact generic="identity" relation="correlate_with">profile information</fact>
+	<fact generic="identity" relation="correlate_with">identity information</fact>
+	<fact generic="identity" relation="correlate_with">private information</fact>
+	<fact generic="identity" relation="correlate_with">sensitive information</fact>
+	<fact generic="identity" relation="correlate_with">information</fact>
+	<fact generic="identity" relation="correlate_with">data</fact>
+	<fact generic="identity" relation="correlate_with">datum</fact>
+	<fact generic="identity" relation="correlate_with">user private data</fact>
+	<fact generic="identity" relation="correlate_with">user private datum</fact>
+	<fact generic="identity" relation="correlate_with">SSI management system</fact>
+	<fact generic="identity" relation="correlate_with">SSI system</fact>
+	<fact generic="identity" relation="correlate_with">SSI model</fact>
+	<fact generic="verification" relation="correlate_with">identity verification</fact>
+	<fact generic="verification" relation="correlate_with">proof of authority</fact>
+	<fact generic="verification" relation="correlate_with">identification</fact>
+	<fact generic="verification" relation="correlate_with">authorize</fact>
+	<fact generic="verification" relation="correlate_with">identity validation</fact>
+	<fact generic="verification" relation="correlate_with">verify</fact>
+	<fact generic="verification" relation="correlate_with">critical function</fact>
+	<fact generic="verification" relation="correlate_with">peer verification</fact>
+	<fact generic="password" relation="correlate_with">user password</fact>
+	<fact generic="password" relation="correlate_with">credential</fact>
+	<fact generic="password" relation="correlate_with">secret</fact>
+	<fact generic="password" relation="correlate_with">sensitive information</fact>
+	<fact generic="password" relation="correlate_with">private data</fact>
+	<fact generic="password" relation="correlate_with">private information</fact>
+	<fact generic="password" relation="correlate_with">digital credential</fact>
+	<fact generic="schema" relation="correlate_with">proof</fact>
+	<fact generic="schema" relation="correlate_with">proof schema</fact>
+	<fact generic="schema" relation="correlate_with">certificate</fact>
+	<fact generic="schema" relation="synonym_of">design</fact>
+	<fact generic="access" relation="synonym_of">enter</fact>
+	<fact generic="access" relation="synonym_of">reach</fact>
+	<fact generic="access" relation="correlate_with">read</fact>
+	<fact generic="access" relation="correlate_with">make use</fact>
+	<fact generic="access" relation="correlate_with">critical function</fact>
+	<fact generic="access" relation="correlate_with">privileged function</fact>
+	<fact generic="identify" relation="synonym_of">recognize</fact>
+	<fact generic="identify" relation="synonym_of">determine</fact>
+	<fact generic="username" relation="correlate_with">user account</fact>
+	<fact generic="username" relation="correlate_with">user identifier</fact>
+	<fact generic="username" relation="correlate_with">user profile</fact>
+	<fact generic="username" relation="correlate_with">public information</fact>
+</cdkg>

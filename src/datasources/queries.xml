@@ -1,0 +1,56 @@
+<?xml version="1.0" ?>
+<queries>
+    <function>The identity wallet shall initiate a public key and a private key in the first use.</function>
+    <function>The identity wallet shall create a DID string that is collision-free for itself.</function>
+    <function>The identity wallet shall submit a write request of the DID string and the public key to the blockchain service.</function>
+    <function>The blockchain service shall create a DID document, containing the DID string, the public key, and other related information.</function>
+    <function>The blockchain service shall create a data block contain the DID document.</function>
+    <function>The blockchain service shall broadcast the data block to all validator nodes.</function>
+    <function>The validator node shall validate the correctness of the data block and respond to the blockchain service.</function>
+    <function>The blockchain service shall compute the agreed consensus. </function>
+    <function>The blockchain service shall write the data block to the immutable on-chain storage if validator nodes are consensus.</function>
+    <function>The identity wallet shall store the private key with the strong and latest cryptographic mechanism.</function>
+    <function>The identity wallet shall store the DID string as an address for itself.</function>
+    <function>Users shall register a wallet account at least with their name, age, address, email address, and password.</function>
+    <function>The SSI management system shall provide a mobile application for being an identity wallet.</function>
+    <function>Users shall authenticate the identity wallet with email address and password.</function>
+    <function>Users shall be able to select to authenticate with a passcode set by the mobile operating system.</function>
+    <function>The identity wallet shall lock the wallet account after 3 fail login attempted.</function>
+    <function>The identity wallet shall unlock the wallet account if the user could provide correct account information.</function>
+    <function>Users shall be able to recover their access with a forgot-password function.</function>
+    <function>The identity wallet shall send an email with a password reset link to the registered email address.</function>
+    <function>The identity wallet shall protect the use of old password when resetting the password.</function>
+    <function>Users shall be able to store their identity attribute by providing an attribute name, a type, and a value.</function>
+    <function>The identity wallet shall accept five types of identity attributes: integer, float, timestamp, string, and boolean.</function>
+    <function>The identity wallet shall validate the provided identity attribute with respect to its data type.</function>
+    <function>The identity wallet shall store the identity attribute in the local database after the value is encrypted with the public key.</function>
+    <function>Users shall be able to retrieve from the local database and read the value of identity attribute in plaintext.</function>
+    <function>Users shall be able to modify the name and value of the identity attribute whenever they wish.</function>
+    <function>Users shall be able to delete identity attributes from the local database.</function>
+    <function>The identity wallet shall prompt to request user's confirmation before processing the deletion.</function>
+    <function>The identity wallet shall permanently delete the requested identity attributes in a way that is not recoverable.</function>
+    <function>The identity wallet shall allow users to select their identity attribute to generate a claim.</function>
+    <function>The identity wallet shall automatically generate a claim if the data type of the selected identity attribute is either integer, float, or timestamp.</function>
+    <function>The identity wallet shall allow users to generate their claim manually with an intuitive form.</function>
+    <function>The identity wallet shall validate that the manually-generated claims do not expose the actual identity attribute.</function>
+    <function>The identity wallet shall encapsulate the claim in the data model in compliance with the verifiable credential data model standard.</function>
+    <function>The identity wallet shall assign one of the three statuses to every claim: invalid, valid, revoked.</function>
+    <function>The identity wallet shall assign the invalid status to claims which just created.</function>
+    <function>The identity wallet shall allow users to submit an invalid claim to an issuer for validation.</function>
+    <function>The issuer service endpoint shall validate the submitted claim automatically from its database.</function>
+    <function>The issuer service endpoint shall notify a personnel by email to validate the submitted claim in the case that its database is insufficient.</function>
+    <function>The issuer service endpoint shall generate a proof schema that provided a proof key for verifying the claim.</function>
+    <function>The issuer service endpoint shall submit a write request, containing a proof schema and a metadata concerning claim status, and submit it to the blockchain service.</function>
+    <function>The issuer service endpoint shall encapsulate the submitted claim in a verifiable claim data model.</function>
+    <function>The issuer service endpoint shall return the verifiable claim back to the corresponding identity wallet.</function>
+    <function>The identity wallet shall store the verifiable claim in its local database.</function>
+    <function>The identity wallet shall notify the user about the receipt of the verifiable claims.</function>
+    <function>The service provider shall provide a QR code that direct to the authentication process with the identity wallet.</function>
+    <function>The identity wallet shall allow users to use the mobile's camera to scan the QR code for authentication.</function>
+    <function>The service provider shall pass a list of required credentials for authentication to the identity wallet.</function>
+    <function>The identity wallet shall notify the user to review the request for credentials via a mobile notification.</function>
+    <function>The identity wallet shall present a list of required credentials requested by the service provider.</function>
+    <function>The user can either accept or reject to provide each required credential.</function>
+    <function>The user shall present the selected and required credentials to the service provider.</function>
+    <function>The service provider shall verify the received credentials by retrieving proof schemas and other related metadata from the blockchain.</function>
+</queries>
