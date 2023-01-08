@@ -30,6 +30,12 @@ class SWIF:
 
         if queries_loader is not None and corpus_loader is not None and graph_loader is not None:
             print("--------------------------")
+            self.train_vectorizer_flag = input("Would you like to re-train the term vectorizer? [Y/N] : ")
+            if self.train_vectorizer_flag == "Y":
+                self.vectorizer.train_vect_model(self.preprocessor, graph_loader, corpus_loader)
+                self.vectorizer = Vectorizer()
+
+            print("--------------------------")
             result, index_list = recommend(queries_loader, corpus_loader, graph_loader, self.preprocessor,
                                            self.vectorizer)
             print("Recommended SSI-Specific Weaknesses:")

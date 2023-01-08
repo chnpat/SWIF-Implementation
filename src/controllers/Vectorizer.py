@@ -1,7 +1,7 @@
 import os.path
 
 from src import global_var
-from src.controllers.utilities import FileHandler
+from src.controllers.utilities import FileHandler, Logger
 from src.controllers.Preprocessor import Preprocessor
 from src.controllers.CorpusLoader import CorpusLoader
 from src.controllers.GraphLoader import GraphLoader
@@ -31,4 +31,5 @@ class Vectorizer:
             tfidf_count_occurs = self.vect_model.fit_transform(text)
             vect = tfidf_count_occurs.toarray().tolist()
             FileHandler.write_pickle(global_var.DIR_VECTOR_MODEL, self.vect_model)
+            print("The TF-IDF Vectorizer is successfully trained from the corpus and graph.")
             return self.vect_model, vect
