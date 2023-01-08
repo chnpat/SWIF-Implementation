@@ -1,6 +1,6 @@
 import csv
 import pickle
-import Logger
+from src.controllers.utilities import Logger
 
 
 def read_csv(directory):

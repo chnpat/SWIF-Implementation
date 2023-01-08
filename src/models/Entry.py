@@ -1,6 +1,6 @@
 class Entry:
 
-    def __init__(self, cwe_id="", name="", description="", extend="", clean="", vector=[]):
+    def __init__(self, cwe_id, name, description="", extend="", clean="", vector=[]):
         self.cweId = cwe_id
         self.name = name
         self.description = description
