@@ -1,5 +1,7 @@
 from xml.dom import minidom
 from src import global_var
+from src.controllers.GraphLoader import GraphLoader
+from src.controllers.Preprocessor import Preprocessor
 from src.controllers.utilities import Logger
 from src.models.Entry import Entry
 
@@ -44,3 +46,15 @@ class CorpusLoader:
                     self.entries.append(Entry(cweId, name, description, extend, clean, vector))
         except IOError:
             Logger.log("Error reading the DOM XML file > " + global_var.DIR_WEAKNESSES, Logger.LogLevel.ERROR)
+
+    def vectorize_entry(self, vector_model, preprocessor, graph_loader):
+        new_entries = []
+        if isinstance(preprocessor, Preprocessor) and isinstance(graph_loader, GraphLoader):
+            for entry in self.entries:
+                if entry.get_clean() != "":
+                    vector = vector_model.vectorize(entry.get_clean(), preprocessor, graph_loader)
+                    if entry.vector != vector.toarray().tolist()[0]:
+                        entry.set_vector(vector.toarray().tolist()[0])
+                    new_entries.append(entry)
+        print("Entries in the corpus are vectorized successfully.")
+        self.entries = new_entries

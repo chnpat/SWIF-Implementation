@@ -17,12 +17,12 @@ class SWIF:
         print("====================================")
 
         while True:
-            self.default_files_flag = input("Would you like to specify input files manually? [Y/N] : ")
+            self.default_files_flag = input("Would you like to use default input files? [Y/N] : ")
             print("--------------------------")
-            if self.default_files_flag == "Y":
+            if self.default_files_flag == "N":
                 queries_loader, corpus_loader, graph_loader = filename_inquiries()
                 break
-            elif self.default_files_flag == "N":
+            elif self.default_files_flag == "Y":
                 queries_loader, corpus_loader, graph_loader = default_filename_load()
                 break
             else:
@@ -34,6 +34,7 @@ class SWIF:
             if self.train_vectorizer_flag == "Y":
                 self.vectorizer.train_vect_model(self.preprocessor, graph_loader, corpus_loader)
                 self.vectorizer = Vectorizer()
+                corpus_loader.vectorize_entry(self.vectorizer, self.preprocessor, graph_loader)
 
             print("--------------------------")
             result, index_list = recommend(queries_loader, corpus_loader, graph_loader, self.preprocessor,
